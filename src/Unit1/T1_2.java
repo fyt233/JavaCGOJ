@@ -1,3 +1,5 @@
+package Unit1;
+
 import java.util.Scanner;
 
 public class T1_2 {
