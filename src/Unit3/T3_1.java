@@ -30,7 +30,8 @@ class Circle{
 
     public String toString(){
         String info;
-        info = "radius="+radius+" perimeter="+String.format("%.2f",getCircum())+" area="+String.format("%.2f",getArea());
+        info = "radius="+radius+" perimeter="+String.format("%.2f",getCircum())+
+                " area="+String.format("%.2f",getArea());
         return info;
     }
 
@@ -54,7 +55,10 @@ class Rectangle extends Circle{
 
     public String toString(){
         String info;
-        info = "radius="+super.getRadius()+" perimeter="+String.format("%.2f",super.getCircum())+" area="+String.format("%.2f",super.getArea())+" height="+height+" volume="+String.format("%.2f",getVolume());
+        info = "radius="+super.getRadius()+
+                " perimeter="+String.format("%.2f",super.getCircum())+
+                " area="+String.format("%.2f",super.getArea())+
+                " volume="+String.format("%.2f",getVolume());
         return info;
     }
 
